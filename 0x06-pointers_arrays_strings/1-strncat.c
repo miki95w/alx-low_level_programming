@@ -1,7 +1,7 @@
 /**
- * _strcat - a function that concatenates two strings.
+ * _strncat - a function that concatenates two strings.
  *
- * @dest: pointer to concatenated input
+ * @dest: pointer to destination input
  * @src: pointer to source input
  * @n: most number of bytes from @src
  *
@@ -13,6 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 int c, i;
 
 c = 0;
+
   /*find size of dest array*/
 while (dest[c])
 c++;
