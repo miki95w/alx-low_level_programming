@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdio.h>
+
 /**
  * isPrintableASCII - determines if n is a printable ASCII char
  * @n: integer
